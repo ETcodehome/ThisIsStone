@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/polished_white_limestone",
+    "up": "what_is_stone:block/polished_white_limestone",
+    "north": "what_is_stone:block/polished_white_limestone",
+    "east": "what_is_stone:block/polished_white_limestone",
+    "south": "what_is_stone:block/polished_white_limestone",
+    "west": "what_is_stone:block/polished_white_limestone",
+    "particle": "what_is_stone:block/polished_white_limestone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "what_is_stone:block/peridotite_slab"
+    },
+    "type=top": {
+      "model": "what_is_stone:block/peridotite_slab_top"
+    },
+    "type=double": {
+      "model": "what_is_stone:block/peridotite_slab_full"
+    }
+  }
+}

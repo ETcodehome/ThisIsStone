@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "what_is_stone:pegmatite"
+    },
+    "3": {
+      "item": "what_is_stone:pegmatite"
+    },
+    "4": {
+      "item": "what_is_stone:pegmatite"
+    },
+    "6": {
+      "item": "what_is_stone:pegmatite"
+    },
+    "7": {
+      "item": "what_is_stone:pegmatite"
+    },
+    "8": {
+      "item": "what_is_stone:pegmatite"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:pegmatite_stairs",
+    "count": 4
+  }
+}

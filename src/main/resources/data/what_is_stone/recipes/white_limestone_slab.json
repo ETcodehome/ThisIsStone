@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "what_is_stone:white_limestone"
+    },
+    "1": {
+      "item": "what_is_stone:white_limestone"
+    },
+    "2": {
+      "item": "what_is_stone:white_limestone"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:white_limestone_slab",
+    "count": 6
+  }
+}

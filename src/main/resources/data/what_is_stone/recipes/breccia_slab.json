@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "what_is_stone:breccia"
+    },
+    "1": {
+      "item": "what_is_stone:breccia"
+    },
+    "2": {
+      "item": "what_is_stone:breccia"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:breccia_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "what_is_stone:arkosic_sandstone_feature",
+  "step": "underground_ores"
+}

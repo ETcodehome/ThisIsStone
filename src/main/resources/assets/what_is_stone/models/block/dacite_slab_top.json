@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "what_is_stone:block/dacite",
+    "top": "what_is_stone:block/dacite",
+    "side": "what_is_stone:block/dacite"
+  },
+  "render_type": "solid"
+}

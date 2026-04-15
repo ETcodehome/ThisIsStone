@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "what_is_stone:mudstone"
+    },
+    "3": {
+      "item": "what_is_stone:mudstone"
+    },
+    "4": {
+      "item": "what_is_stone:mudstone"
+    },
+    "6": {
+      "item": "what_is_stone:mudstone"
+    },
+    "7": {
+      "item": "what_is_stone:mudstone"
+    },
+    "8": {
+      "item": "what_is_stone:mudstone"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:mudstone_stairs",
+    "count": 4
+  }
+}

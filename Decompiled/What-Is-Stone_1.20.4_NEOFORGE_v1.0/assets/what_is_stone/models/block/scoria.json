@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/end_stone_4",
+    "up": "what_is_stone:block/end_stone_4",
+    "north": "what_is_stone:block/end_stone_4",
+    "east": "what_is_stone:block/end_stone_4",
+    "south": "what_is_stone:block/end_stone_4",
+    "west": "what_is_stone:block/end_stone_4",
+    "particle": "what_is_stone:block/end_stone_4"
+  },
+  "render_type": "solid"
+}

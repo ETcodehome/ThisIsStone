@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "what_is_stone:block/pumice_bricks",
+    "top": "what_is_stone:block/pumice_bricks",
+    "side": "what_is_stone:block/pumice_bricks"
+  },
+  "render_type": "solid"
+}

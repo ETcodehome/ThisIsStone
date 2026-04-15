@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/breccia_3_1",
+    "up": "what_is_stone:block/breccia_3_1",
+    "north": "what_is_stone:block/breccia_3_1",
+    "east": "what_is_stone:block/breccia_3_1",
+    "south": "what_is_stone:block/breccia_3_1",
+    "west": "what_is_stone:block/breccia_3_1",
+    "particle": "what_is_stone:block/breccia_3_1"
+  },
+  "render_type": "solid"
+}

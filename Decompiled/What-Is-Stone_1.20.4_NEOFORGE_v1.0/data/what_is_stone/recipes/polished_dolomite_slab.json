@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "234"
+  ],
+  "key": {
+    "2": {
+      "item": "what_is_stone:polished_dolomite"
+    },
+    "3": {
+      "item": "what_is_stone:polished_dolomite"
+    },
+    "4": {
+      "item": "what_is_stone:polished_dolomite"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:polished_dolomite_slab",
+    "count": 6
+  }
+}

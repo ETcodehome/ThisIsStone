@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/highland_stone_2",
+    "up": "what_is_stone:block/highland_stone_2",
+    "north": "what_is_stone:block/highland_stone_2",
+    "east": "what_is_stone:block/highland_stone_2",
+    "south": "what_is_stone:block/highland_stone_2",
+    "west": "what_is_stone:block/highland_stone_2",
+    "particle": "what_is_stone:block/highland_stone_2"
+  },
+  "render_type": "solid"
+}

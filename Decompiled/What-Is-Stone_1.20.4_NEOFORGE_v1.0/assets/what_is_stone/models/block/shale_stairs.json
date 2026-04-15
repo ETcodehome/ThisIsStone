@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "what_is_stone:block/shale",
+    "top": "what_is_stone:block/shale",
+    "side": "what_is_stone:block/shale"
+  },
+  "render_type": "solid"
+}

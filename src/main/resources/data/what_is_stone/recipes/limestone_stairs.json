@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "what_is_stone:limestone"
+    },
+    "3": {
+      "item": "what_is_stone:limestone"
+    },
+    "4": {
+      "item": "what_is_stone:limestone"
+    },
+    "6": {
+      "item": "what_is_stone:limestone"
+    },
+    "7": {
+      "item": "what_is_stone:limestone"
+    },
+    "8": {
+      "item": "what_is_stone:limestone"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:limestone_stairs",
+    "count": 4
+  }
+}

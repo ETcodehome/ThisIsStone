@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "what_is_stone:block/polished_dolomite",
+    "top": "what_is_stone:block/polished_dolomite",
+    "side": "what_is_stone:block/polished_dolomite"
+  },
+  "render_type": "solid"
+}

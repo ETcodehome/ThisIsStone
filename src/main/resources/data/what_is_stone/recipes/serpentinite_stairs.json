@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "what_is_stone:serpentinite"
+    },
+    "3": {
+      "item": "what_is_stone:serpentinite"
+    },
+    "4": {
+      "item": "what_is_stone:serpentinite"
+    },
+    "6": {
+      "item": "what_is_stone:serpentinite"
+    },
+    "7": {
+      "item": "what_is_stone:serpentinite"
+    },
+    "8": {
+      "item": "what_is_stone:serpentinite"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:serpentinite_stairs",
+    "count": 4
+  }
+}

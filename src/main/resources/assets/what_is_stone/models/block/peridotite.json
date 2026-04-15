@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/peridotite",
+    "up": "what_is_stone:block/peridotite",
+    "north": "what_is_stone:block/peridotite",
+    "east": "what_is_stone:block/peridotite",
+    "south": "what_is_stone:block/peridotite",
+    "west": "what_is_stone:block/peridotite",
+    "particle": "what_is_stone:block/peridotite"
+  },
+  "render_type": "solid"
+}

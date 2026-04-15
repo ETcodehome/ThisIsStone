@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/polished_rhyolite",
+    "up": "what_is_stone:block/polished_rhyolite",
+    "north": "what_is_stone:block/polished_rhyolite",
+    "east": "what_is_stone:block/polished_rhyolite",
+    "south": "what_is_stone:block/polished_rhyolite",
+    "west": "what_is_stone:block/polished_rhyolite",
+    "particle": "what_is_stone:block/polished_rhyolite"
+  },
+  "render_type": "solid"
+}

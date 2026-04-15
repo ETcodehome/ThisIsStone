@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/polished_peridotite",
+    "up": "what_is_stone:block/polished_peridotite",
+    "north": "what_is_stone:block/polished_peridotite",
+    "east": "what_is_stone:block/polished_peridotite",
+    "south": "what_is_stone:block/polished_peridotite",
+    "west": "what_is_stone:block/polished_peridotite",
+    "particle": "what_is_stone:block/polished_peridotite"
+  },
+  "render_type": "solid"
+}

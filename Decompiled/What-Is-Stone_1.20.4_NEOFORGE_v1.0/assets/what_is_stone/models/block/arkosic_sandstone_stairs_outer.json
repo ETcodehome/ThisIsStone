@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "what_is_stone:block/highland_stone_2",
+    "top": "what_is_stone:block/highland_stone_2",
+    "side": "what_is_stone:block/highland_stone_2"
+  },
+  "render_type": "solid"
+}

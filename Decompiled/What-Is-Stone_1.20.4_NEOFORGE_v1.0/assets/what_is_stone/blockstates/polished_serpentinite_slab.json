@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "what_is_stone:block/polished_serpentinite_slab"
+    },
+    "type=top": {
+      "model": "what_is_stone:block/polished_serpentinite_slab_top"
+    },
+    "type=double": {
+      "model": "what_is_stone:block/polished_serpentinite_slab_full"
+    }
+  }
+}

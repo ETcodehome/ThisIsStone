@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "what_is_stone:black_marble"
+  },
+  "result": "what_is_stone:polished_black_marble_slab"
+}

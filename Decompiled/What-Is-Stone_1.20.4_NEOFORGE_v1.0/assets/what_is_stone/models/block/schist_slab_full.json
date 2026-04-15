@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "what_is_stone:block/schist",
+    "top": "what_is_stone:block/schist",
+    "side": "what_is_stone:block/schist"
+  },
+  "render_type": "solid"
+}

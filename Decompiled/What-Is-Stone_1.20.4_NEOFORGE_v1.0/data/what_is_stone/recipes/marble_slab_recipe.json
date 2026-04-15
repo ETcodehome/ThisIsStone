@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "what_is_stone:marble"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:marble_slab",
+    "count": 6
+  }
+}

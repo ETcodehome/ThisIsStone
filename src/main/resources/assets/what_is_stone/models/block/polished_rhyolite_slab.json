@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "what_is_stone:block/polished_rhyolite",
+    "top": "what_is_stone:block/polished_rhyolite",
+    "side": "what_is_stone:block/polished_rhyolite"
+  },
+  "render_type": "solid"
+}

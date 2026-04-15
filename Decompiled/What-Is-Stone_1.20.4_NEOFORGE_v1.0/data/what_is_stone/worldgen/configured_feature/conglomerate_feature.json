@@ -1,0 +1,97 @@
+{
+  "type": "what_is_stone:conglomerate_feature",
+  "config": {
+    "size": 20,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "what_is_stone:gneiss"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "what_is_stone:dacite"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "what_is_stone:gabbro"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "what_is_stone:shale"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "what_is_stone:slate"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "what_is_stone:grey_limestone"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "state": {
+          "Name": "what_is_stone:conglomerate"
+        }
+      }
+    ]
+  }
+}

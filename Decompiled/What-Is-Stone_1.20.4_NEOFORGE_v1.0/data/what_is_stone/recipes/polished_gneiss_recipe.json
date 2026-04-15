@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "what_is_stone:gneiss"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:polished_gneiss",
+    "count": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "what_is_stone:block/new_project_24_1",
+    "top": "what_is_stone:block/new_project_24_1",
+    "side": "what_is_stone:block/new_project_24_1"
+  },
+  "render_type": "solid"
+}

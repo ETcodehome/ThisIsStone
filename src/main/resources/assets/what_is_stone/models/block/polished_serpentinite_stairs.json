@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "what_is_stone:block/polished_serpentinite",
+    "top": "what_is_stone:block/polished_serpentinite",
+    "side": "what_is_stone:block/polished_serpentinite"
+  },
+  "render_type": "solid"
+}

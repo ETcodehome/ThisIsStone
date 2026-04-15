@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "what_is_stone:block/quartzite_1_1",
+    "top": "what_is_stone:block/quartzite_1_1",
+    "side": "what_is_stone:block/quartzite_1_1"
+  },
+  "render_type": "solid"
+}

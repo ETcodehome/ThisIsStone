@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "what_is_stone:block/white_granite",
+    "top": "what_is_stone:block/white_granite",
+    "side": "what_is_stone:block/white_granite"
+  },
+  "render_type": "solid"
+}

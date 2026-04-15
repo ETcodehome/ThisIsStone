@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "what_is_stone:block/polished_soapstone",
+    "top": "what_is_stone:block/polished_soapstone",
+    "side": "what_is_stone:block/polished_soapstone"
+  },
+  "render_type": "solid"
+}

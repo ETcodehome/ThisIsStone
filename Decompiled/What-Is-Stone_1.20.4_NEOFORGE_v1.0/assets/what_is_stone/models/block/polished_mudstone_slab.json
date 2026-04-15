@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "what_is_stone:block/polished_mudstone",
+    "top": "what_is_stone:block/polished_mudstone",
+    "side": "what_is_stone:block/polished_mudstone"
+  },
+  "render_type": "solid"
+}

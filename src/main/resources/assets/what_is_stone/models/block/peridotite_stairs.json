@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "what_is_stone:block/peridotite",
+    "top": "what_is_stone:block/peridotite",
+    "side": "what_is_stone:block/peridotite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "what_is_stone:dacite"
+    },
+    "1": {
+      "item": "what_is_stone:dacite"
+    },
+    "2": {
+      "item": "what_is_stone:dacite"
+    },
+    "3": {
+      "item": "what_is_stone:dacite"
+    }
+  },
+  "result": {
+    "item": "what_is_stone:dacite_bricks",
+    "count": 4
+  }
+}

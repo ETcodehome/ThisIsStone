@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "what_is_stone:block/polished_quartzite",
+    "up": "what_is_stone:block/polished_quartzite",
+    "north": "what_is_stone:block/polished_quartzite",
+    "east": "what_is_stone:block/polished_quartzite",
+    "south": "what_is_stone:block/polished_quartzite",
+    "west": "what_is_stone:block/polished_quartzite",
+    "particle": "what_is_stone:block/polished_quartzite"
+  },
+  "render_type": "solid"
+}
