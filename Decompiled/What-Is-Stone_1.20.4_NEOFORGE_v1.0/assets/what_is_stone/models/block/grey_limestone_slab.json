@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "what_is_stone:block/grey_limestone",
-    "top": "what_is_stone:block/grey_limestone",
-    "side": "what_is_stone:block/grey_limestone"
-  },
-  "render_type": "solid"
-}

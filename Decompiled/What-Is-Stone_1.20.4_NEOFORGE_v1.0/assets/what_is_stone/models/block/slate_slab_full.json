@@ -1,9 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "bottom": "what_is_stone:block/slate",
-    "top": "what_is_stone:block/slate",
-    "side": "what_is_stone:block/slate"
-  },
-  "render_type": "solid"
-}

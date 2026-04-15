@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "what_is_stone:quartzite"
-  },
-  "result": "what_is_stone:polished_quartzite_slab"
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab_top",
-  "textures": {
-    "bottom": "what_is_stone:block/breccia_3_1",
-    "top": "what_is_stone:block/breccia_3_1",
-    "side": "what_is_stone:block/breccia_3_1"
-  },
-  "render_type": "solid"
-}

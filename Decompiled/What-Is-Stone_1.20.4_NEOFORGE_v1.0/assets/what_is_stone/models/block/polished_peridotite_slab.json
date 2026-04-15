@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "what_is_stone:block/polished_peridotite",
-    "top": "what_is_stone:block/polished_peridotite",
-    "side": "what_is_stone:block/polished_peridotite"
-  },
-  "render_type": "solid"
-}

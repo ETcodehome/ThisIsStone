@@ -1,9 +1,0 @@
-{
-  "parent": "block/stairs",
-  "textures": {
-    "bottom": "what_is_stone:block/black_marblepolished2",
-    "top": "what_is_stone:block/black_marblepolished2",
-    "side": "what_is_stone:block/black_marblepolished2"
-  },
-  "render_type": "solid"
-}

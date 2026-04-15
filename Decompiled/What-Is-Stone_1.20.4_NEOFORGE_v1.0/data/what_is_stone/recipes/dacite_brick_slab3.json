@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "what_is_stone:dacite"
-  },
-  "result": "what_is_stone:dacite_brick_slab"
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "what_is_stone:block/dolomite",
-    "top": "what_is_stone:block/dolomite",
-    "side": "what_is_stone:block/dolomite"
-  },
-  "render_type": "solid"
-}
