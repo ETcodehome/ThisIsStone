@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.storage.loot.LootParams;
 
+import java.util.Collections;
 import java.util.List;
 
 public class GenericSlabBlock extends SlabBlock {
@@ -27,7 +28,7 @@ public class GenericSlabBlock extends SlabBlock {
 
     @Override
     public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-        // Returns a list containing one stack of this block, bypassing JSON lookup
-        return List.of(new ItemStack(this));
+        List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+        return !dropsOriginal.isEmpty() ? dropsOriginal : Collections.singletonList(new ItemStack(this, 1));
     }
 }

@@ -29,8 +29,6 @@ public class GenericStoneBlock extends Block {
 
     @Override
     public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-        // Returns a list containing one stack of this block, bypassing JSON lookup
-        //return List.of(new ItemStack(this));
         List<ItemStack> dropsOriginal = super.getDrops(state, builder);
         return !dropsOriginal.isEmpty() ? dropsOriginal : Collections.singletonList(new ItemStack(this, 1));
     }
