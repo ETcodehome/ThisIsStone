@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:breccia"
+    },
+    "3": {
+      "item": "this_is_stone:breccia"
+    },
+    "4": {
+      "item": "this_is_stone:breccia"
+    },
+    "6": {
+      "item": "this_is_stone:breccia"
+    },
+    "7": {
+      "item": "this_is_stone:breccia"
+    },
+    "8": {
+      "item": "this_is_stone:breccia"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:breccia_stairs",
+    "count": 4
+  }
+}

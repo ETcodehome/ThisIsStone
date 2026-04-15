@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:mudstone"
+    },
+    "1": {
+      "item": "this_is_stone:mudstone"
+    },
+    "2": {
+      "item": "this_is_stone:mudstone"
+    },
+    "3": {
+      "item": "this_is_stone:mudstone"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:polished_mudstone",
+    "count": 4
+  }
+}

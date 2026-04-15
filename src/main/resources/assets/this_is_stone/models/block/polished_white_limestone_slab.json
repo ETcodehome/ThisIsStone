@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "this_is_stone:block/polished_white_limestone",
+    "top": "this_is_stone:block/polished_white_limestone",
+    "side": "this_is_stone:block/polished_white_limestone"
+  },
+  "render_type": "solid"
+}

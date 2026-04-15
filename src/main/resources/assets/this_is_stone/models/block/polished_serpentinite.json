@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/polished_serpentinite",
+    "up": "this_is_stone:block/polished_serpentinite",
+    "north": "this_is_stone:block/polished_serpentinite",
+    "east": "this_is_stone:block/polished_serpentinite",
+    "south": "this_is_stone:block/polished_serpentinite",
+    "west": "this_is_stone:block/polished_serpentinite",
+    "particle": "this_is_stone:block/polished_serpentinite"
+  },
+  "render_type": "solid"
+}

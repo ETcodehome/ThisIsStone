@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/polished_rhyolite",
+    "top": "this_is_stone:block/polished_rhyolite",
+    "side": "this_is_stone:block/polished_rhyolite"
+  },
+  "render_type": "solid"
+}

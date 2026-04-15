@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:arkosic_sandstone"
+    },
+    "3": {
+      "item": "this_is_stone:arkosic_sandstone"
+    },
+    "4": {
+      "item": "this_is_stone:arkosic_sandstone"
+    },
+    "6": {
+      "item": "this_is_stone:arkosic_sandstone"
+    },
+    "7": {
+      "item": "this_is_stone:arkosic_sandstone"
+    },
+    "8": {
+      "item": "this_is_stone:arkosic_sandstone"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:arkosic_sandstone_stairs",
+    "count": 4
+  }
+}

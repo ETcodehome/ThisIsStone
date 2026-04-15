@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/polished_gneiss",
+    "top": "this_is_stone:block/polished_gneiss",
+    "side": "this_is_stone:block/polished_gneiss"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:schist"
+    },
+    "1": {
+      "item": "this_is_stone:schist"
+    },
+    "2": {
+      "item": "this_is_stone:schist"
+    },
+    "3": {
+      "item": "this_is_stone:schist"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:polished_schist",
+    "count": 4
+  }
+}

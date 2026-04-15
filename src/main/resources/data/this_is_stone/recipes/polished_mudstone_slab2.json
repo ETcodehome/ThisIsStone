@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "this_is_stone:polished_mudstone"
+  },
+  "result": "this_is_stone:polished_mudstone_slab"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:soapstone"
+    },
+    "1": {
+      "item": "this_is_stone:soapstone"
+    },
+    "2": {
+      "item": "this_is_stone:soapstone"
+    },
+    "3": {
+      "item": "this_is_stone:soapstone"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:polished_soapstone",
+    "count": 4
+  }
+}

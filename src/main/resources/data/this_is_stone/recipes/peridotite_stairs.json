@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:peridotite"
+    },
+    "3": {
+      "item": "this_is_stone:peridotite"
+    },
+    "4": {
+      "item": "this_is_stone:peridotite"
+    },
+    "6": {
+      "item": "this_is_stone:peridotite"
+    },
+    "7": {
+      "item": "this_is_stone:peridotite"
+    },
+    "8": {
+      "item": "this_is_stone:peridotite"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:peridotite_stairs",
+    "count": 4
+  }
+}

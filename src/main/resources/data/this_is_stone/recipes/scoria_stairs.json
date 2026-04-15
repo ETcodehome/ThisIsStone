@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:scoria"
+    },
+    "3": {
+      "item": "this_is_stone:scoria"
+    },
+    "4": {
+      "item": "this_is_stone:scoria"
+    },
+    "6": {
+      "item": "this_is_stone:scoria"
+    },
+    "7": {
+      "item": "this_is_stone:scoria"
+    },
+    "8": {
+      "item": "this_is_stone:scoria"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:scoria_stairs",
+    "count": 4
+  }
+}

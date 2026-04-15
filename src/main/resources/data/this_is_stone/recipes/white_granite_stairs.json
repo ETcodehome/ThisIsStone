@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:white_granite"
+    },
+    "3": {
+      "item": "this_is_stone:white_granite"
+    },
+    "4": {
+      "item": "this_is_stone:white_granite"
+    },
+    "6": {
+      "item": "this_is_stone:white_granite"
+    },
+    "7": {
+      "item": "this_is_stone:white_granite"
+    },
+    "8": {
+      "item": "this_is_stone:white_granite"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:white_granite_stairs",
+    "count": 4
+  }
+}

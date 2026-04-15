@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "this_is_stone:block/gneiss",
+    "top": "this_is_stone:block/gneiss",
+    "side": "this_is_stone:block/gneiss"
+  },
+  "render_type": "solid"
+}

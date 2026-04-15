@@ -1,0 +1,97 @@
+{
+  "type": "this_is_stone:white_granite_feature",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "this_is_stone:gneiss"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "this_is_stone:dacite"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "this_is_stone:gabbro"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "this_is_stone:shale"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "this_is_stone:grey_limestone"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "this_is_stone:slate"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:white_granite"
+        }
+      }
+    ]
+  }
+}

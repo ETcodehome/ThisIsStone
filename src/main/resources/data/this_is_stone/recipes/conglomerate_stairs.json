@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:conglomerate"
+    },
+    "3": {
+      "item": "this_is_stone:conglomerate"
+    },
+    "4": {
+      "item": "this_is_stone:conglomerate"
+    },
+    "6": {
+      "item": "this_is_stone:conglomerate"
+    },
+    "7": {
+      "item": "this_is_stone:conglomerate"
+    },
+    "8": {
+      "item": "this_is_stone:conglomerate"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:conglomerate_stairs",
+    "count": 4
+  }
+}

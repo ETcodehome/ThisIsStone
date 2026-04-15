@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/polished_soapstone",
+    "up": "this_is_stone:block/polished_soapstone",
+    "north": "this_is_stone:block/polished_soapstone",
+    "east": "this_is_stone:block/polished_soapstone",
+    "south": "this_is_stone:block/polished_soapstone",
+    "west": "this_is_stone:block/polished_soapstone",
+    "particle": "this_is_stone:block/polished_soapstone"
+  },
+  "render_type": "solid"
+}

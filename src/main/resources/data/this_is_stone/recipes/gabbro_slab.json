@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:gabbro"
+    },
+    "1": {
+      "item": "this_is_stone:gabbro"
+    },
+    "2": {
+      "item": "this_is_stone:gabbro"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:gabbro_slab",
+    "count": 6
+  }
+}

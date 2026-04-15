@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/schist",
+    "up": "this_is_stone:block/schist",
+    "north": "this_is_stone:block/schist",
+    "east": "this_is_stone:block/schist",
+    "south": "this_is_stone:block/schist",
+    "west": "this_is_stone:block/schist",
+    "particle": "this_is_stone:block/schist"
+  },
+  "render_type": "solid"
+}

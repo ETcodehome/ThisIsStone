@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/dolomite",
+    "up": "this_is_stone:block/dolomite",
+    "north": "this_is_stone:block/dolomite",
+    "east": "this_is_stone:block/dolomite",
+    "south": "this_is_stone:block/dolomite",
+    "west": "this_is_stone:block/dolomite",
+    "particle": "this_is_stone:block/dolomite"
+  },
+  "render_type": "solid"
+}

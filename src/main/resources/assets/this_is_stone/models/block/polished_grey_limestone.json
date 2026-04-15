@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/smooth_grey_limestone",
+    "up": "this_is_stone:block/smooth_grey_limestone",
+    "north": "this_is_stone:block/smooth_grey_limestone",
+    "east": "this_is_stone:block/smooth_grey_limestone",
+    "south": "this_is_stone:block/smooth_grey_limestone",
+    "west": "this_is_stone:block/smooth_grey_limestone",
+    "particle": "this_is_stone:block/smooth_grey_limestone"
+  },
+  "render_type": "solid"
+}

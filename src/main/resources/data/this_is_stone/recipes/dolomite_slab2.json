@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "this_is_stone:dolomite"
+  },
+  "result": "this_is_stone:dolomite_slab"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "this_is_stone:anthracite"
+  },
+  "result": "this_is_stone:chunk_of_anthracite"
+}

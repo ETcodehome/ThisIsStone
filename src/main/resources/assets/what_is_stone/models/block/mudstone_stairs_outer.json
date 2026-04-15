@@ -1,9 +1,0 @@
-{
-  "parent": "block/outer_stairs",
-  "textures": {
-    "bottom": "what_is_stone:block/mudstone",
-    "top": "what_is_stone:block/mudstone",
-    "side": "what_is_stone:block/mudstone"
-  },
-  "render_type": "solid"
-}

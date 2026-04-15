@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/pegmatite",
+    "top": "this_is_stone:block/pegmatite",
+    "side": "this_is_stone:block/pegmatite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/pumice",
+    "up": "this_is_stone:block/pumice",
+    "north": "this_is_stone:block/pumice",
+    "east": "this_is_stone:block/pumice",
+    "south": "this_is_stone:block/pumice",
+    "west": "this_is_stone:block/pumice",
+    "particle": "this_is_stone:block/pumice"
+  },
+  "render_type": "solid"
+}

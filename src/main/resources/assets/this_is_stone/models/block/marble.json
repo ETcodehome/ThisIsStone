@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/marble",
+    "up": "this_is_stone:block/marble",
+    "north": "this_is_stone:block/marble",
+    "east": "this_is_stone:block/marble",
+    "south": "this_is_stone:block/marble",
+    "west": "this_is_stone:block/marble",
+    "particle": "this_is_stone:block/marble"
+  },
+  "render_type": "solid"
+}

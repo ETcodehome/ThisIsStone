@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:scoria"
+    },
+    "1": {
+      "item": "this_is_stone:scoria"
+    },
+    "2": {
+      "item": "this_is_stone:scoria"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:scoria_slab",
+    "count": 6
+  }
+}

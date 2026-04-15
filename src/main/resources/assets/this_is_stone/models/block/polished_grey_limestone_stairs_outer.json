@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/smooth_grey_limestone",
+    "top": "this_is_stone:block/smooth_grey_limestone",
+    "side": "this_is_stone:block/smooth_grey_limestone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "234"
+  ],
+  "key": {
+    "2": {
+      "item": "this_is_stone:polished_limestone"
+    },
+    "3": {
+      "item": "this_is_stone:polished_limestone"
+    },
+    "4": {
+      "item": "this_is_stone:polished_limestone"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:polished_limestone_slab",
+    "count": 6
+  }
+}

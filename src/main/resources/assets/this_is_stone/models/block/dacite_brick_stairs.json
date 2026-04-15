@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/dacite_bricks",
+    "top": "this_is_stone:block/dacite_bricks",
+    "side": "this_is_stone:block/dacite_bricks"
+  },
+  "render_type": "solid"
+}

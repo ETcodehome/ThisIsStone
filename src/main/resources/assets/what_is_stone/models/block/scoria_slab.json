@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "what_is_stone:block/end_stone_4",
-    "top": "what_is_stone:block/end_stone_4",
-    "side": "what_is_stone:block/end_stone_4"
-  },
-  "render_type": "solid"
-}

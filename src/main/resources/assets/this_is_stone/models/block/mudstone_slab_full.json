@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "this_is_stone:block/mudstone",
+    "top": "this_is_stone:block/mudstone",
+    "side": "this_is_stone:block/mudstone"
+  },
+  "render_type": "solid"
+}

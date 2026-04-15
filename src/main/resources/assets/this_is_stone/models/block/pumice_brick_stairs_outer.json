@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/pumice_bricks",
+    "top": "this_is_stone:block/pumice_bricks",
+    "side": "this_is_stone:block/pumice_bricks"
+  },
+  "render_type": "solid"
+}

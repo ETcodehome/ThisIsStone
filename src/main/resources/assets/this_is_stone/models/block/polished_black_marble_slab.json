@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "this_is_stone:block/black_marblepolished2",
+    "top": "this_is_stone:block/black_marblepolished2",
+    "side": "this_is_stone:block/black_marblepolished2"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:white_granite"
+    },
+    "1": {
+      "item": "this_is_stone:white_granite"
+    },
+    "2": {
+      "item": "this_is_stone:white_granite"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:white_granite_slab",
+    "count": 6
+  }
+}

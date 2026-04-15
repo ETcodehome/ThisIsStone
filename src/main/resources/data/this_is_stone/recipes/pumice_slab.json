@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:pumice"
+    },
+    "1": {
+      "item": "this_is_stone:pumice"
+    },
+    "2": {
+      "item": "this_is_stone:pumice"
+    }
+  },
+  "result": {
+    "item": "this_is_stone:pumice_slab",
+    "count": 6
+  }
+}

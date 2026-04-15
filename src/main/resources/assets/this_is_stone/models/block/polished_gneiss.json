@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/polished_gneiss",
+    "up": "this_is_stone:block/polished_gneiss",
+    "north": "this_is_stone:block/polished_gneiss",
+    "east": "this_is_stone:block/polished_gneiss",
+    "south": "this_is_stone:block/polished_gneiss",
+    "west": "this_is_stone:block/polished_gneiss",
+    "particle": "this_is_stone:block/polished_gneiss"
+  },
+  "render_type": "solid"
+}
