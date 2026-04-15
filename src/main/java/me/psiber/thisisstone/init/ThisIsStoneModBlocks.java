@@ -1,266 +1,186 @@
 package me.psiber.thisisstone.init;
 
-import me.psiber.thisisstone.block.AnthraciteBlock;
-import me.psiber.thisisstone.block.ArkosicSandstoneBlock;
-import me.psiber.thisisstone.block.ArkosicSandstoneSlabBlock;
-import me.psiber.thisisstone.block.ArkosicSandstoneStairsBlock;
-import me.psiber.thisisstone.block.BlackMarbleBlock;
-import me.psiber.thisisstone.block.BlackMarbleSlabBlock;
-import me.psiber.thisisstone.block.BlackMarbleStairsBlock;
-import me.psiber.thisisstone.block.BrecciaBlock;
-import me.psiber.thisisstone.block.BrecciaSlabBlock;
-import me.psiber.thisisstone.block.BrecciaStairsBlock;
-import me.psiber.thisisstone.block.ConglomerateBlock;
-import me.psiber.thisisstone.block.ConglomerateSlabBlock;
-import me.psiber.thisisstone.block.ConglomerateStairsBlock;
-import me.psiber.thisisstone.block.DaciteBlock;
-import me.psiber.thisisstone.block.DaciteBrickSlabBlock;
-import me.psiber.thisisstone.block.DaciteBrickStairsBlock;
-import me.psiber.thisisstone.block.DaciteBricksBlock;
-import me.psiber.thisisstone.block.DaciteSlabBlock;
-import me.psiber.thisisstone.block.DaciteStairsBlock;
-import me.psiber.thisisstone.block.DolomiteBlock;
-import me.psiber.thisisstone.block.DolomiteSlabBlock;
-import me.psiber.thisisstone.block.DolomiteStairsBlock;
-import me.psiber.thisisstone.block.GabbroBlock;
-import me.psiber.thisisstone.block.GabbroSlabBlock;
-import me.psiber.thisisstone.block.GabbroStairsBlock;
-import me.psiber.thisisstone.block.GneissBlock;
-import me.psiber.thisisstone.block.GneissSlabBlock;
-import me.psiber.thisisstone.block.GneissStairsBlock;
-import me.psiber.thisisstone.block.GreyLimestoneBlock;
-import me.psiber.thisisstone.block.GreyLimestoneSlabBlock;
-import me.psiber.thisisstone.block.GreyLimestoneStairsBlock;
-import me.psiber.thisisstone.block.LimestoneBlock;
-import me.psiber.thisisstone.block.LimestoneBrickSlabBlock;
-import me.psiber.thisisstone.block.LimestoneBrickStairsBlock;
-import me.psiber.thisisstone.block.LimestoneBricksBlock;
-import me.psiber.thisisstone.block.LimestoneSlabBlock;
-import me.psiber.thisisstone.block.LimestoneStairsBlock;
-import me.psiber.thisisstone.block.MarbleBlock;
-import me.psiber.thisisstone.block.MarbleSlabBlock;
-import me.psiber.thisisstone.block.MarbleStairsBlock;
-import me.psiber.thisisstone.block.MudstoneBlock;
-import me.psiber.thisisstone.block.MudstoneSlabBlock;
-import me.psiber.thisisstone.block.MudstoneStairsBlock;
-import me.psiber.thisisstone.block.PegmatiteBlock;
-import me.psiber.thisisstone.block.PegmatiteSlabBlock;
-import me.psiber.thisisstone.block.PegmatiteStairsBlock;
-import me.psiber.thisisstone.block.PeridotiteBlock;
-import me.psiber.thisisstone.block.PeridotiteSlabBlock;
-import me.psiber.thisisstone.block.PeridotiteStairsBlock;
-import me.psiber.thisisstone.block.PolishedBlackMarbleBlock;
-import me.psiber.thisisstone.block.PolishedBlackMarbleSlabBlock;
-import me.psiber.thisisstone.block.PolishedBlackMarbleStairsBlock;
-import me.psiber.thisisstone.block.PolishedDolomiteBlock;
-import me.psiber.thisisstone.block.PolishedDolomiteSlabBlock;
-import me.psiber.thisisstone.block.PolishedDolomiteStairsBlock;
-import me.psiber.thisisstone.block.PolishedGneissBlock;
-import me.psiber.thisisstone.block.PolishedGneissSlabBlock;
-import me.psiber.thisisstone.block.PolishedGneissStairsBlock;
-import me.psiber.thisisstone.block.PolishedGreyLimestoneBlock;
-import me.psiber.thisisstone.block.PolishedGreyLimestoneSlabBlock;
-import me.psiber.thisisstone.block.PolishedGreyLimestoneStairsBlock;
-import me.psiber.thisisstone.block.PolishedLimestoneBlock;
-import me.psiber.thisisstone.block.PolishedLimestoneSlabBlock;
-import me.psiber.thisisstone.block.PolishedLimestoneStairsBlock;
-import me.psiber.thisisstone.block.PolishedMarbleBlock;
-import me.psiber.thisisstone.block.PolishedMarbleBrickSlabBlock;
-import me.psiber.thisisstone.block.PolishedMarbleBrickStairsBlock;
-import me.psiber.thisisstone.block.PolishedMarbleBricksBlock;
-import me.psiber.thisisstone.block.PolishedMarbleSlabBlock;
-import me.psiber.thisisstone.block.PolishedMarbleStairsBlock;
-import me.psiber.thisisstone.block.PolishedMudstoneBlock;
-import me.psiber.thisisstone.block.PolishedMudstoneSlabBlock;
-import me.psiber.thisisstone.block.PolishedMudstoneStairsBlock;
-import me.psiber.thisisstone.block.PolishedPeridotiteBlock;
-import me.psiber.thisisstone.block.PolishedPeridotiteSlabBlock;
-import me.psiber.thisisstone.block.PolishedPeridotiteStairsBlock;
-import me.psiber.thisisstone.block.PolishedQuartziteBlock;
-import me.psiber.thisisstone.block.PolishedQuartziteSlabBlock;
-import me.psiber.thisisstone.block.PolishedQuartziteStairsBlock;
-import me.psiber.thisisstone.block.PolishedRhyoliteBlock;
-import me.psiber.thisisstone.block.PolishedRhyoliteSlabBlock;
-import me.psiber.thisisstone.block.PolishedRhyoliteStairsBlock;
-import me.psiber.thisisstone.block.PolishedSchistBlock;
-import me.psiber.thisisstone.block.PolishedSerpentiniteBlock;
-import me.psiber.thisisstone.block.PolishedSerpentiniteSlabBlock;
-import me.psiber.thisisstone.block.PolishedSerpentiniteStairsBlock;
-import me.psiber.thisisstone.block.PolishedSoapstoneBlock;
-import me.psiber.thisisstone.block.PolishedSoapstoneSlabBlock;
-import me.psiber.thisisstone.block.PolishedSoapstoneStairsBlock;
-import me.psiber.thisisstone.block.PolishedWhiteLimestoneBlock;
-import me.psiber.thisisstone.block.PolishedWhiteLimestoneSlabBlock;
-import me.psiber.thisisstone.block.PolishedWhiteLimestoneStairsBlock;
-import me.psiber.thisisstone.block.PumiceBlock;
-import me.psiber.thisisstone.block.PumiceBrickSlabBlock;
-import me.psiber.thisisstone.block.PumiceBrickStairsBlock;
-import me.psiber.thisisstone.block.PumiceBricksBlock;
-import me.psiber.thisisstone.block.PumiceSlabBlock;
-import me.psiber.thisisstone.block.PumiceStairsBlock;
-import me.psiber.thisisstone.block.QuartziteBlock;
-import me.psiber.thisisstone.block.QuartziteSlabBlock;
-import me.psiber.thisisstone.block.QuartziteStairsBlock;
-import me.psiber.thisisstone.block.RhyoliteBlock;
-import me.psiber.thisisstone.block.RhyoliteSlabBlock;
-import me.psiber.thisisstone.block.RhyoliteStairsBlock;
-import me.psiber.thisisstone.block.SchistBlock;
-import me.psiber.thisisstone.block.SchistSlabBlock;
-import me.psiber.thisisstone.block.SchistStairsBlock;
-import me.psiber.thisisstone.block.ScoriaBlock;
-import me.psiber.thisisstone.block.ScoriaSlabBlock;
-import me.psiber.thisisstone.block.ScoriaStairsBlock;
-import me.psiber.thisisstone.block.SerpentiniteBlock;
-import me.psiber.thisisstone.block.SerpentiniteSlabBlock;
-import me.psiber.thisisstone.block.SerpentiniteStairsBlock;
-import me.psiber.thisisstone.block.ShaleBlock;
-import me.psiber.thisisstone.block.ShaleSlabBlock;
-import me.psiber.thisisstone.block.ShaleStairsBlock;
-import me.psiber.thisisstone.block.SlateBlock;
-import me.psiber.thisisstone.block.SlateSlabBlock;
-import me.psiber.thisisstone.block.SlateStairsBlock;
-import me.psiber.thisisstone.block.SoapstoneBlock;
-import me.psiber.thisisstone.block.SoapstoneSlabBlock;
-import me.psiber.thisisstone.block.SoapstoneStairsBlock;
-import me.psiber.thisisstone.block.WhiteGraniteBlock;
-import me.psiber.thisisstone.block.WhiteGraniteSlabBlock;
-import me.psiber.thisisstone.block.WhiteGraniteStairsBlock;
-import me.psiber.thisisstone.block.WhiteLimestoneBlock;
-import me.psiber.thisisstone.block.WhiteLimestoneSlabBlock;
-import me.psiber.thisisstone.block.WhiteLimestoneStairsBlock;
+import me.psiber.thisisstone.block.*;
 import net.minecraft.world.level.block.Block;
-import net.neoforged.neoforge.registries.DeferredHolder;
+import net.minecraft.world.level.block.SoundType;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ThisIsStoneModBlocks {
-   public static DeferredRegister<Block> REGISTRY = DeferredRegister.createBlocks("this_is_stone");
-   public static final DeferredHolder<Block, Block> PUMICE_BRICKS = REGISTRY.register("pumice_bricks", () -> new PumiceBricksBlock());
-   public static final DeferredHolder<Block, Block> PUMICE = REGISTRY.register("pumice", () -> new PumiceBlock());
-   public static final DeferredHolder<Block, Block> GNEISS = REGISTRY.register("gneiss", () -> new GneissBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_GNEISS = REGISTRY.register("polished_gneiss", () -> new PolishedGneissBlock());
-   public static final DeferredHolder<Block, Block> MARBLE = REGISTRY.register("marble", () -> new MarbleBlock());
-   public static final DeferredHolder<Block, Block> CONGLOMERATE = REGISTRY.register("conglomerate", () -> new ConglomerateBlock());
-   public static final DeferredHolder<Block, Block> DACITE = REGISTRY.register("dacite", () -> new DaciteBlock());
-   public static final DeferredHolder<Block, Block> GABBRO = REGISTRY.register("gabbro", () -> new GabbroBlock());
-   public static final DeferredHolder<Block, Block> LIMESTONE = REGISTRY.register("limestone", () -> new LimestoneBlock());
-   public static final DeferredHolder<Block, Block> BRECCIA = REGISTRY.register("breccia", () -> new BrecciaBlock());
-   public static final DeferredHolder<Block, Block> WHITE_GRANITE = REGISTRY.register("white_granite", () -> new WhiteGraniteBlock());
-   public static final DeferredHolder<Block, Block> DOLOMITE = REGISTRY.register("dolomite", () -> new DolomiteBlock());
-   public static final DeferredHolder<Block, Block> RHYOLITE = REGISTRY.register("rhyolite", () -> new RhyoliteBlock());
-   public static final DeferredHolder<Block, Block> SHALE = REGISTRY.register("shale", () -> new ShaleBlock());
-   public static final DeferredHolder<Block, Block> PEGMATITE = REGISTRY.register("pegmatite", () -> new PegmatiteBlock());
-   public static final DeferredHolder<Block, Block> SLATE = REGISTRY.register("slate", () -> new SlateBlock());
-   public static final DeferredHolder<Block, Block> WHITE_LIMESTONE = REGISTRY.register("white_limestone", () -> new WhiteLimestoneBlock());
-   public static final DeferredHolder<Block, Block> SCHIST = REGISTRY.register("schist", () -> new SchistBlock());
-   public static final DeferredHolder<Block, Block> SCORIA = REGISTRY.register("scoria", () -> new ScoriaBlock());
-   public static final DeferredHolder<Block, Block> BLACK_MARBLE = REGISTRY.register("black_marble", () -> new BlackMarbleBlock());
-   public static final DeferredHolder<Block, Block> SERPENTINITE = REGISTRY.register("serpentinite", () -> new SerpentiniteBlock());
-   public static final DeferredHolder<Block, Block> ANTHRACITE = REGISTRY.register("anthracite", () -> new AnthraciteBlock());
-   public static final DeferredHolder<Block, Block> SOAPSTONE = REGISTRY.register("soapstone", () -> new SoapstoneBlock());
-   public static final DeferredHolder<Block, Block> ARKOSIC_SANDSTONE = REGISTRY.register("arkosic_sandstone", () -> new ArkosicSandstoneBlock());
-   public static final DeferredHolder<Block, Block> MUDSTONE = REGISTRY.register("mudstone", () -> new MudstoneBlock());
-   public static final DeferredHolder<Block, Block> PERIDOTITE = REGISTRY.register("peridotite", () -> new PeridotiteBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_BLACK_MARBLE = REGISTRY.register("polished_black_marble", () -> new PolishedBlackMarbleBlock());
-   public static final DeferredHolder<Block, Block> GREY_LIMESTONE = REGISTRY.register("grey_limestone", () -> new GreyLimestoneBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MARBLE = REGISTRY.register("polished_marble", () -> new PolishedMarbleBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MARBLE_BRICKS = REGISTRY.register("polished_marble_bricks", () -> new PolishedMarbleBricksBlock());
-   public static final DeferredHolder<Block, Block> MARBLE_SLAB = REGISTRY.register("marble_slab", () -> new MarbleSlabBlock());
-   public static final DeferredHolder<Block, Block> MARBLE_STAIRS = REGISTRY.register("marble_stairs", () -> new MarbleStairsBlock());
-   public static final DeferredHolder<Block, Block> BLACK_MARBLE_SLAB = REGISTRY.register("black_marble_slab", () -> new BlackMarbleSlabBlock());
-   public static final DeferredHolder<Block, Block> BLACK_MARBLE_STAIRS = REGISTRY.register("black_marble_stairs", () -> new BlackMarbleStairsBlock());
-   public static final DeferredHolder<Block, Block> PUMICE_SLAB = REGISTRY.register("pumice_slab", () -> new PumiceSlabBlock());
-   public static final DeferredHolder<Block, Block> PUMICE_STAIRS = REGISTRY.register("pumice_stairs", () -> new PumiceStairsBlock());
-   public static final DeferredHolder<Block, Block> LIMESTONE_SLAB = REGISTRY.register("limestone_slab", () -> new LimestoneSlabBlock());
-   public static final DeferredHolder<Block, Block> LIMESTONE_STAIRS = REGISTRY.register("limestone_stairs", () -> new LimestoneStairsBlock());
-   public static final DeferredHolder<Block, Block> LIMESTONE_BRICKS = REGISTRY.register("limestone_bricks", () -> new LimestoneBricksBlock());
-   public static final DeferredHolder<Block, Block> LIMESTONE_BRICK_SLAB = REGISTRY.register("limestone_brick_slab", () -> new LimestoneBrickSlabBlock());
-   public static final DeferredHolder<Block, Block> LIMESTONE_BRICK_STAIRS = REGISTRY.register("limestone_brick_stairs", () -> new LimestoneBrickStairsBlock());
-   public static final DeferredHolder<Block, Block> GNEISS_SLAB = REGISTRY.register("gneiss_slab", () -> new GneissSlabBlock());
-   public static final DeferredHolder<Block, Block> GNEISS_STAIRS = REGISTRY.register("gneiss_stairs", () -> new GneissStairsBlock());
-   public static final DeferredHolder<Block, Block> CONGLOMERATE_SLAB = REGISTRY.register("conglomerate_slab", () -> new ConglomerateSlabBlock());
-   public static final DeferredHolder<Block, Block> CONGLOMERATE_STAIRS = REGISTRY.register("conglomerate_stairs", () -> new ConglomerateStairsBlock());
-   public static final DeferredHolder<Block, Block> DACITE_SLAB = REGISTRY.register("dacite_slab", () -> new DaciteSlabBlock());
-   public static final DeferredHolder<Block, Block> DACITE_STAIRS = REGISTRY.register("dacite_stairs", () -> new DaciteStairsBlock());
-   public static final DeferredHolder<Block, Block> GABBRO_SLAB = REGISTRY.register("gabbro_slab", () -> new GabbroSlabBlock());
-   public static final DeferredHolder<Block, Block> GABBRO_STAIRS = REGISTRY.register("gabbro_stairs", () -> new GabbroStairsBlock());
-   public static final DeferredHolder<Block, Block> BRECCIA_SLAB = REGISTRY.register("breccia_slab", () -> new BrecciaSlabBlock());
-   public static final DeferredHolder<Block, Block> BRECCIA_STAIRS = REGISTRY.register("breccia_stairs", () -> new BrecciaStairsBlock());
-   public static final DeferredHolder<Block, Block> WHITE_GRANITE_SLAB = REGISTRY.register("white_granite_slab", () -> new WhiteGraniteSlabBlock());
-   public static final DeferredHolder<Block, Block> WHITE_GRANITE_STAIRS = REGISTRY.register("white_granite_stairs", () -> new WhiteGraniteStairsBlock());
-   public static final DeferredHolder<Block, Block> DOLOMITE_SLAB = REGISTRY.register("dolomite_slab", () -> new DolomiteSlabBlock());
-   public static final DeferredHolder<Block, Block> DOLOMITE_STAIRS = REGISTRY.register("dolomite_stairs", () -> new DolomiteStairsBlock());
-   public static final DeferredHolder<Block, Block> RHYOLITE_SLAB = REGISTRY.register("rhyolite_slab", () -> new RhyoliteSlabBlock());
-   public static final DeferredHolder<Block, Block> RHYOLITE_STAIRS = REGISTRY.register("rhyolite_stairs", () -> new RhyoliteStairsBlock());
-   public static final DeferredHolder<Block, Block> SHALE_SLAB = REGISTRY.register("shale_slab", () -> new ShaleSlabBlock());
-   public static final DeferredHolder<Block, Block> SHALE_STAIRS = REGISTRY.register("shale_stairs", () -> new ShaleStairsBlock());
-   public static final DeferredHolder<Block, Block> PEGMATITE_SLAB = REGISTRY.register("pegmatite_slab", () -> new PegmatiteSlabBlock());
-   public static final DeferredHolder<Block, Block> PEGMATITE_STAIRS = REGISTRY.register("pegmatite_stairs", () -> new PegmatiteStairsBlock());
-   public static final DeferredHolder<Block, Block> SLATE_SLAB = REGISTRY.register("slate_slab", () -> new SlateSlabBlock());
-   public static final DeferredHolder<Block, Block> SLATE_STAIRS = REGISTRY.register("slate_stairs", () -> new SlateStairsBlock());
-   public static final DeferredHolder<Block, Block> WHITE_LIMESTONE_SLAB = REGISTRY.register("white_limestone_slab", () -> new WhiteLimestoneSlabBlock());
-   public static final DeferredHolder<Block, Block> WHITE_LIMESTONE_STAIRS = REGISTRY.register("white_limestone_stairs", () -> new WhiteLimestoneStairsBlock());
-   public static final DeferredHolder<Block, Block> SCHIST_SLAB = REGISTRY.register("schist_slab", () -> new SchistSlabBlock());
-   public static final DeferredHolder<Block, Block> SCHIST_STAIRS = REGISTRY.register("schist_stairs", () -> new SchistStairsBlock());
-   public static final DeferredHolder<Block, Block> SCORIA_SLAB = REGISTRY.register("scoria_slab", () -> new ScoriaSlabBlock());
-   public static final DeferredHolder<Block, Block> SCORIA_STAIRS = REGISTRY.register("scoria_stairs", () -> new ScoriaStairsBlock());
-   public static final DeferredHolder<Block, Block> SERPENTINITE_SLAB = REGISTRY.register("serpentinite_slab", () -> new SerpentiniteSlabBlock());
-   public static final DeferredHolder<Block, Block> SERPENTINITE_STAIRS = REGISTRY.register("serpentinite_stairs", () -> new SerpentiniteStairsBlock());
-   public static final DeferredHolder<Block, Block> SOAPSTONE_SLAB = REGISTRY.register("soapstone_slab", () -> new SoapstoneSlabBlock());
-   public static final DeferredHolder<Block, Block> SOAPSTONE_STAIRS = REGISTRY.register("soapstone_stairs", () -> new SoapstoneStairsBlock());
-   public static final DeferredHolder<Block, Block> ARKOSIC_SANDSTONE_SLAB = REGISTRY.register("arkosic_sandstone_slab", () -> new ArkosicSandstoneSlabBlock());
-   public static final DeferredHolder<Block, Block> ARKOSIC_SANDSTONE_STAIRS = REGISTRY.register("arkosic_sandstone_stairs", () -> new ArkosicSandstoneStairsBlock());
-   public static final DeferredHolder<Block, Block> MUDSTONE_SLAB = REGISTRY.register("mudstone_slab", () -> new MudstoneSlabBlock());
-   public static final DeferredHolder<Block, Block> MUDSTONE_STAIRS = REGISTRY.register("mudstone_stairs", () -> new MudstoneStairsBlock());
-   public static final DeferredHolder<Block, Block> PERIDOTITE_SLAB = REGISTRY.register("peridotite_slab", () -> new PeridotiteSlabBlock());
-   public static final DeferredHolder<Block, Block> PERIDOTITE_STAIRS = REGISTRY.register("peridotite_stairs", () -> new PeridotiteStairsBlock());
-   public static final DeferredHolder<Block, Block> GREY_LIMESTONE_SLAB = REGISTRY.register("grey_limestone_slab", () -> new GreyLimestoneSlabBlock());
-   public static final DeferredHolder<Block, Block> GREY_LIMESTONE_STAIRS = REGISTRY.register("grey_limestone_stairs", () -> new GreyLimestoneStairsBlock());
-   public static final DeferredHolder<Block, Block> PUMICE_BRICK_SLAB = REGISTRY.register("pumice_brick_slab", () -> new PumiceBrickSlabBlock());
-   public static final DeferredHolder<Block, Block> PUMICE_BRICK_STAIRS = REGISTRY.register("pumice_brick_stairs", () -> new PumiceBrickStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MARBLE_BRICK_SLAB = REGISTRY.register("polished_marble_brick_slab", () -> new PolishedMarbleBrickSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MARBLE_BRICK_STAIRS = REGISTRY.register("polished_marble_brick_stairs", () -> new PolishedMarbleBrickStairsBlock());
-   public static final DeferredHolder<Block, Block> QUARTZITE = REGISTRY.register("quartzite", () -> new QuartziteBlock());
-   public static final DeferredHolder<Block, Block> QUARTZITE_SLAB = REGISTRY.register("quartzite_slab", () -> new QuartziteSlabBlock());
-   public static final DeferredHolder<Block, Block> QUARTZITE_STAIRS = REGISTRY.register("quartzite_stairs", () -> new QuartziteStairsBlock());
-   public static final DeferredHolder<Block, Block> DACITE_BRICKS = REGISTRY.register("dacite_bricks", () -> new DaciteBricksBlock());
-   public static final DeferredHolder<Block, Block> DACITE_BRICK_SLAB = REGISTRY.register("dacite_brick_slab", () -> new DaciteBrickSlabBlock());
-   public static final DeferredHolder<Block, Block> DACITE_BRICK_STAIRS = REGISTRY.register("dacite_brick_stairs", () -> new DaciteBrickStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_SOAPSTONE = REGISTRY.register("polished_soapstone", () -> new PolishedSoapstoneBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_SERPENTINITE = REGISTRY.register("polished_serpentinite", () -> new PolishedSerpentiniteBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_DOLOMITE = REGISTRY.register("polished_dolomite", () -> new PolishedDolomiteBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_SOAPSTONE_SLAB = REGISTRY.register("polished_soapstone_slab", () -> new PolishedSoapstoneSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_DOLOMITE_SLAB = REGISTRY.register("polished_dolomite_slab", () -> new PolishedDolomiteSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_SERPENTINITE_SLAB = REGISTRY.register("polished_serpentinite_slab", () -> new PolishedSerpentiniteSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MARBLE_SLAB = REGISTRY.register("polished_marble_slab", () -> new PolishedMarbleSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MUDSTONE = REGISTRY.register("polished_mudstone", () -> new PolishedMudstoneBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_GREY_LIMESTONE = REGISTRY.register("polished_grey_limestone", () -> new PolishedGreyLimestoneBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_RHYOLITE = REGISTRY.register("polished_rhyolite", () -> new PolishedRhyoliteBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_QUARTZITE = REGISTRY.register("polished_quartzite", () -> new PolishedQuartziteBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_PERIDOTITE = REGISTRY.register("polished_peridotite", () -> new PolishedPeridotiteBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_LIMESTONE = REGISTRY.register("polished_limestone", () -> new PolishedLimestoneBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MARBLE_STAIRS = REGISTRY.register("polished_marble_stairs", () -> new PolishedMarbleStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_SOAPSTONE_STAIRS = REGISTRY.register("polished_soapstone_stairs", () -> new PolishedSoapstoneStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_DOLOMITE_STAIRS = REGISTRY.register("polished_dolomite_stairs", () -> new PolishedDolomiteStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_SERPENTINITE_STAIRS = REGISTRY.register("polished_serpentinite_stairs", () -> new PolishedSerpentiniteStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MUDSTONE_SLAB = REGISTRY.register("polished_mudstone_slab", () -> new PolishedMudstoneSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_MUDSTONE_STAIRS = REGISTRY.register("polished_mudstone_stairs", () -> new PolishedMudstoneStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_GREY_LIMESTONE_SLAB = REGISTRY.register("polished_grey_limestone_slab", () -> new PolishedGreyLimestoneSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_GREY_LIMESTONE_STAIRS = REGISTRY.register("polished_grey_limestone_stairs", () -> new PolishedGreyLimestoneStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_RHYOLITE_SLAB = REGISTRY.register("polished_rhyolite_slab", () -> new PolishedRhyoliteSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_RHYOLITE_STAIRS = REGISTRY.register("polished_rhyolite_stairs", () -> new PolishedRhyoliteStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_QUARTZITE_SLAB = REGISTRY.register("polished_quartzite_slab", () -> new PolishedQuartziteSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_QUARTZITE_STAIRS = REGISTRY.register("polished_quartzite_stairs", () -> new PolishedQuartziteStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_PERIDOTITE_SLAB = REGISTRY.register("polished_peridotite_slab", () -> new PolishedPeridotiteSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_PERIDOTITE_STAIRS = REGISTRY.register("polished_peridotite_stairs", () -> new PolishedPeridotiteStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_LIMESTONE_SLAB = REGISTRY.register("polished_limestone_slab", () -> new PolishedLimestoneSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_LIMESTONE_STAIRS = REGISTRY.register("polished_limestone_stairs", () -> new PolishedLimestoneStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_GNEISS_SLAB = REGISTRY.register("polished_gneiss_slab", () -> new PolishedGneissSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_GNEISS_STAIRS = REGISTRY.register("polished_gneiss_stairs", () -> new PolishedGneissStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_BLACK_MARBLE_SLAB = REGISTRY.register("polished_black_marble_slab", () -> new PolishedBlackMarbleSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_BLACK_MARBLE_STAIRS = REGISTRY.register("polished_black_marble_stairs", () -> new PolishedBlackMarbleStairsBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_SCHIST = REGISTRY.register("polished_schist", () -> new PolishedSchistBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_WHITE_LIMESTONE = REGISTRY.register("polished_white_limestone", () -> new PolishedWhiteLimestoneBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_WHITE_LIMESTONE_SLAB = REGISTRY.register("polished_white_limestone_slab", () -> new PolishedWhiteLimestoneSlabBlock());
-   public static final DeferredHolder<Block, Block> POLISHED_WHITE_LIMESTONE_STAIRS = REGISTRY.register("polished_white_limestone_stairs", () -> new PolishedWhiteLimestoneStairsBlock());
+
+   public static final DeferredRegister<Block> REGISTRY = DeferredRegister.createBlocks("this_is_stone");
+
+   static{
+
+      REGISTRY.register("anthracite",                 () -> new GenericStoneBlock(1.0F, 3.0F, SoundType.STONE));
+
+      REGISTRY.register("arkosic_sandstone",          () -> new GenericStoneBlock(0.8F, 4.0F, SoundType.STONE));
+      REGISTRY.register("arkosic_sandstone_slab",     () -> new GenericSlabBlock( 0.8F, 4.0F, SoundType.STONE));
+      REGISTRY.register("arkosic_sandstone_stairs",   () -> new GenericStairBlock(0.8F, 4.0F, SoundType.STONE));
+
+      REGISTRY.register("black_marble",               () -> new GenericStoneBlock(1.2F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("black_marble_slab",          () -> new GenericSlabBlock( 1.2F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("black_marble_stairs",        () -> new GenericStairBlock(1.2F, 5.0F, SoundType.CALCITE));
+
+      REGISTRY.register("breccia",                    () -> new GenericStoneBlock(1.8F, 7.0F, SoundType.STONE));
+      REGISTRY.register("breccia_slab",               () -> new GenericSlabBlock( 1.8F, 7.0F, SoundType.STONE));
+      REGISTRY.register("breccia_stairs",             () -> new GenericStairBlock(1.8F, 7.0F, SoundType.STONE));
+
+      REGISTRY.register("conglomerate",               () -> new GenericStoneBlock(1.6F, 6.5F, SoundType.STONE));
+      REGISTRY.register("conglomerate_slab",          () -> new GenericSlabBlock( 1.6F, 6.5F, SoundType.STONE));
+      REGISTRY.register("conglomerate_stairs",        () -> new GenericStairBlock(1.6F, 6.5F, SoundType.STONE));
+
+      REGISTRY.register("dacite",                     () -> new GenericStoneBlock(2.0F, 8.0F, SoundType.BASALT));
+      REGISTRY.register("dacite_slab",                () -> new GenericSlabBlock( 2.0F, 8.0F, SoundType.BASALT));
+      REGISTRY.register("dacite_stairs",              () -> new GenericStairBlock(2.0F, 8.0F, SoundType.BASALT));
+      REGISTRY.register("dacite_bricks",              () -> new GenericStoneBlock(2.0F, 8.0F, SoundType.BASALT));
+      REGISTRY.register("dacite_brick_slab",          () -> new GenericSlabBlock( 2.0F, 8.0F, SoundType.BASALT));
+      REGISTRY.register("dacite_brick_stairs",        () -> new GenericStairBlock(2.0F, 8.0F, SoundType.BASALT));
+
+      REGISTRY.register("dolomite",                   () -> new GenericStoneBlock(1.3F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("dolomite_slab",              () -> new GenericSlabBlock( 1.3F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("dolomite_stairs",            () -> new GenericStairBlock(1.3F, 5.0F, SoundType.CALCITE));
+
+      REGISTRY.register("gabbro",                     () -> new GenericStoneBlock(2.5F, 10.0F, SoundType.BASALT));
+      REGISTRY.register("gabbro_slab",                () -> new GenericSlabBlock( 2.5F, 10.0F, SoundType.BASALT));
+      REGISTRY.register("gabbro_stairs",              () -> new GenericStairBlock(2.5F, 10.0F, SoundType.BASALT));
+
+      REGISTRY.register("gneiss",                     () -> new GenericStoneBlock(1.7F, 6.5F, SoundType.STONE));
+      REGISTRY.register("gneiss_slab",                () -> new GenericSlabBlock( 1.7F, 6.5F, SoundType.STONE));
+      REGISTRY.register("gneiss_stairs",              () -> new GenericStairBlock(1.7F, 6.5F, SoundType.STONE));
+
+      REGISTRY.register("grey_limestone",             () -> new GenericStoneBlock(1.1F, 4.5F, SoundType.STONE));
+      REGISTRY.register("grey_limestone_slab",        () -> new GenericSlabBlock( 1.1F, 4.5F, SoundType.STONE));
+      REGISTRY.register("grey_limestone_stairs",      () -> new GenericStairBlock(1.1F, 4.5F, SoundType.STONE));
+
+      REGISTRY.register("limestone",                  () -> new GenericStoneBlock(1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("limestone_slab",             () -> new GenericSlabBlock( 1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("limestone_stairs",           () -> new GenericStairBlock(1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("limestone_bricks",           () -> new GenericStoneBlock(1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("limestone_brick_slab",       () -> new GenericSlabBlock( 1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("limestone_brick_stairs",     () -> new GenericStairBlock(1.0F, 4.0F, SoundType.STONE));
+
+      REGISTRY.register("marble",                     () -> new GenericStoneBlock(1.1F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("marble_slab",                () -> new GenericSlabBlock( 1.1F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("marble_stairs",              () -> new GenericStairBlock(1.1F, 5.0F, SoundType.CALCITE));
+
+      REGISTRY.register("mudstone",                   () -> new GenericStoneBlock(0.8F, 3.0F, SoundType.PACKED_MUD));
+      REGISTRY.register("mudstone_slab",              () -> new GenericSlabBlock( 0.8F, 3.0F, SoundType.PACKED_MUD));
+      REGISTRY.register("mudstone_stairs",            () -> new GenericStairBlock(0.8F, 3.0F, SoundType.PACKED_MUD));
+
+      REGISTRY.register("pegmatite",                  () -> new GenericStoneBlock(1.5F, 6.0F, SoundType.STONE));
+      REGISTRY.register("pegmatite_slab",             () -> new GenericSlabBlock( 1.5F, 6.0F, SoundType.STONE));
+      REGISTRY.register("pegmatite_stairs",           () -> new GenericStairBlock(1.5F, 6.0F, SoundType.STONE));
+
+      REGISTRY.register("peridotite",                 () -> new GenericStoneBlock(2.2F, 9.0F, SoundType.BASALT));
+      REGISTRY.register("peridotite_slab",            () -> new GenericSlabBlock( 2.2F, 9.0F, SoundType.BASALT));
+      REGISTRY.register("peridotite_stairs",          () -> new GenericStairBlock(2.2F, 9.0F, SoundType.BASALT));
+
+      REGISTRY.register("polished_black_marble",         () -> new GenericStoneBlock(1.2F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_black_marble_slab",    () -> new GenericSlabBlock( 1.2F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_black_marble_stairs",  () -> new GenericStairBlock(1.2F, 5.0F, SoundType.CALCITE));
+
+      REGISTRY.register("polished_dolomite",          () -> new GenericStoneBlock(1.3F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_dolomite_slab",     () -> new GenericSlabBlock( 1.3F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_dolomite_stairs",   () -> new GenericStairBlock(1.3F, 5.0F, SoundType.CALCITE));
+
+      REGISTRY.register("polished_gneiss",            () -> new GenericStoneBlock(1.7F, 6.5F, SoundType.STONE));
+      REGISTRY.register("polished_gneiss_slab",       () -> new GenericSlabBlock( 1.7F, 6.5F, SoundType.STONE));
+      REGISTRY.register("polished_gneiss_stairs",     () -> new GenericStairBlock(1.7F, 6.5F, SoundType.STONE));
+
+      REGISTRY.register("polished_grey_limestone",      () -> new GenericStoneBlock(1.1F, 4.5F, SoundType.STONE));
+      REGISTRY.register("polished_grey_limestone_slab", () -> new GenericSlabBlock( 1.1F, 4.5F, SoundType.STONE));
+      REGISTRY.register("polished_grey_limestone_stairs",() -> new GenericStairBlock(1.1F, 4.5F, SoundType.STONE));
+
+      REGISTRY.register("polished_limestone",         () -> new GenericStoneBlock(1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("polished_limestone_slab",    () -> new GenericSlabBlock( 1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("polished_limestone_stairs",  () -> new GenericStairBlock(1.0F, 4.0F, SoundType.STONE));
+
+      REGISTRY.register("polished_marble",            () -> new GenericStoneBlock(1.1F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_marble_slab",       () -> new GenericSlabBlock( 1.1F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_marble_stairs",     () -> new GenericStairBlock(1.1F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_marble_bricks",     () -> new GenericStoneBlock(1.1F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_marble_brick_slab", () -> new GenericSlabBlock( 1.1F, 5.0F, SoundType.CALCITE));
+      REGISTRY.register("polished_marble_brick_stairs",() -> new GenericStairBlock(1.1F, 5.0F, SoundType.CALCITE));
+
+      REGISTRY.register("polished_mudstone",           () -> new GenericStoneBlock(0.8F, 3.0F, SoundType.STONE));
+      REGISTRY.register("polished_mudstone_slab",      () -> new GenericSlabBlock( 0.8F, 3.0F, SoundType.STONE));
+      REGISTRY.register("polished_mudstone_stairs",    () -> new GenericStairBlock(0.8F, 3.0F, SoundType.STONE));
+
+      REGISTRY.register("polished_peridotite",         () -> new GenericStoneBlock(2.2F, 9.0F, SoundType.BASALT));
+      REGISTRY.register("polished_peridotite_slab",    () -> new GenericSlabBlock( 2.2F, 9.0F, SoundType.BASALT));
+      REGISTRY.register("polished_peridotite_stairs",  () -> new GenericStairBlock(2.2F, 9.0F, SoundType.BASALT));
+
+      REGISTRY.register("polished_quartzite",          () -> new GenericStoneBlock(2.0F, 9.0F, SoundType.STONE));
+      REGISTRY.register("polished_quartzite_slab",     () -> new GenericSlabBlock( 2.0F, 9.0F, SoundType.STONE));
+      REGISTRY.register("polished_quartzite_stairs",   () -> new GenericStairBlock(2.0F, 9.0F, SoundType.STONE));
+
+      REGISTRY.register("polished_rhyolite",           () -> new GenericStoneBlock(1.6F, 6.5F, SoundType.STONE));
+      REGISTRY.register("polished_rhyolite_slab",      () -> new GenericSlabBlock( 1.6F, 6.5F, SoundType.STONE));
+      REGISTRY.register("polished_rhyolite_stairs",    () -> new GenericStairBlock(1.6F, 6.5F, SoundType.STONE));
+
+      REGISTRY.register("polished_schist",             () -> new GenericStoneBlock(1.4F, 6.0F, SoundType.STONE));
+
+      REGISTRY.register("polished_serpentinite",       () -> new GenericStoneBlock(1.4F, 6.0F, SoundType.STONE));
+      REGISTRY.register("polished_serpentinite_slab",  () -> new GenericSlabBlock( 1.4F, 6.0F, SoundType.STONE));
+      REGISTRY.register("polished_serpentinite_stairs",() -> new GenericStairBlock(1.4F, 6.0F, SoundType.STONE));
+
+      REGISTRY.register("polished_soapstone",          () -> new GenericStoneBlock(0.6F, 2.0F, SoundType.STONE));
+      REGISTRY.register("polished_soapstone_slab",     () -> new GenericSlabBlock( 0.6F, 2.0F, SoundType.STONE));
+      REGISTRY.register("polished_soapstone_stairs",   () -> new GenericStairBlock(0.6F, 2.0F, SoundType.STONE));
+
+      REGISTRY.register("polished_white_limestone",    () -> new GenericStoneBlock(1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("polished_white_limestone_slab",() -> new GenericSlabBlock( 1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("polished_white_limestone_stairs",() -> new GenericStairBlock(1.0F, 4.0F, SoundType.STONE));
+
+      REGISTRY.register("pumice",                     () -> new GenericStoneBlock(0.5F, 1.5F, SoundType.TUFF));
+      REGISTRY.register("pumice_slab",                () -> new GenericSlabBlock( 0.5F, 1.5F, SoundType.TUFF));
+      REGISTRY.register("pumice_stairs",              () -> new GenericStairBlock(0.5F, 1.5F, SoundType.TUFF));
+      REGISTRY.register("pumice_bricks",              () -> new GenericStoneBlock(0.7F, 2.5F, SoundType.TUFF));
+      REGISTRY.register("pumice_brick_slab",          () -> new GenericSlabBlock( 0.7F, 2.5F, SoundType.TUFF));
+      REGISTRY.register("pumice_brick_stairs",        () -> new GenericStairBlock(0.7F, 2.5F, SoundType.TUFF));
+
+      REGISTRY.register("quartzite",                   () -> new GenericStoneBlock(2.0F, 9.0F, SoundType.STONE));
+      REGISTRY.register("quartzite_slab",              () -> new GenericSlabBlock( 2.0F, 9.0F, SoundType.STONE));
+      REGISTRY.register("quartzite_stairs",            () -> new GenericStairBlock(2.0F, 9.0F, SoundType.STONE));
+
+      REGISTRY.register("rhyolite",                    () -> new GenericStoneBlock(1.6F, 6.5F, SoundType.STONE));
+      REGISTRY.register("rhyolite_slab",               () -> new GenericSlabBlock( 1.6F, 6.5F, SoundType.STONE));
+      REGISTRY.register("rhyolite_stairs",             () -> new GenericStairBlock(1.6F, 6.5F, SoundType.STONE));
+
+      REGISTRY.register("schist",                      () -> new GenericStoneBlock(1.4F, 6.0F, SoundType.STONE));
+      REGISTRY.register("schist_slab",                 () -> new GenericSlabBlock( 1.4F, 6.0F, SoundType.STONE));
+      REGISTRY.register("schist_stairs",               () -> new GenericStairBlock(1.4F, 6.0F, SoundType.STONE));
+
+      REGISTRY.register("scoria",                      () -> new GenericStoneBlock(0.9F, 3.5F, SoundType.BASALT));
+      REGISTRY.register("scoria_slab",                 () -> new GenericSlabBlock( 0.9F, 3.5F, SoundType.BASALT));
+      REGISTRY.register("scoria_stairs",               () -> new GenericStairBlock(0.9F, 3.5F, SoundType.BASALT));
+
+      REGISTRY.register("serpentinite",                () -> new GenericStoneBlock(1.4F, 6.0F, SoundType.STONE));
+      REGISTRY.register("serpentinite_slab",           () -> new GenericSlabBlock( 1.4F, 6.0F, SoundType.STONE));
+      REGISTRY.register("serpentinite_stairs",         () -> new GenericStairBlock(1.4F, 6.0F, SoundType.STONE));
+
+      REGISTRY.register("shale",                       () -> new GenericStoneBlock(0.7F, 2.5F, SoundType.STONE));
+      REGISTRY.register("shale_slab",                  () -> new GenericSlabBlock( 0.7F, 2.5F, SoundType.STONE));
+      REGISTRY.register("shale_stairs",                () -> new GenericStairBlock(0.7F, 2.5F, SoundType.STONE));
+
+      REGISTRY.register("slate",                       () -> new GenericStoneBlock(1.5F, 6.0F, SoundType.STONE));
+      REGISTRY.register("slate_slab",                  () -> new GenericSlabBlock( 1.5F, 6.0F, SoundType.STONE));
+      REGISTRY.register("slate_stairs",                () -> new GenericStairBlock(1.5F, 6.0F, SoundType.STONE));
+
+      REGISTRY.register("soapstone",                   () -> new GenericStoneBlock(0.6F, 2.0F, SoundType.STONE));
+      REGISTRY.register("soapstone_slab",              () -> new GenericSlabBlock( 0.6F, 2.0F, SoundType.STONE));
+      REGISTRY.register("soapstone_stairs",            () -> new GenericStairBlock(0.6F, 2.0F, SoundType.STONE));
+
+      REGISTRY.register("white_granite",               () -> new GenericStoneBlock(1.8F, 7.0F, SoundType.STONE));
+      REGISTRY.register("white_granite_slab",          () -> new GenericSlabBlock( 1.8F, 7.0F, SoundType.STONE));
+      REGISTRY.register("white_granite_stairs",        () -> new GenericStairBlock(1.8F, 7.0F, SoundType.STONE));
+
+      REGISTRY.register("white_limestone",             () -> new GenericStoneBlock(1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("white_limestone_slab",        () -> new GenericSlabBlock( 1.0F, 4.0F, SoundType.STONE));
+      REGISTRY.register("white_limestone_stairs",      () -> new GenericStairBlock(1.0F, 4.0F, SoundType.STONE));
+
+   }
+
+
 
 }
