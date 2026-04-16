@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": {
     "item": "this_is_stone:white_granite"
   },
-  "result": "this_is_stone:white_granite_slab"
+  "result": {
+    "id": "this_is_stone:white_granite_slab",
+    "count": 2
+  }
 }

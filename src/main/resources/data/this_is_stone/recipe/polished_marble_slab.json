@@ -15,7 +15,7 @@
     }
   },
   "result": {
-    "item": "this_is_stone:polished_marble_slab",
-    "count": 6
+    "count": 6,
+    "id": "this_is_stone:polished_marble_slab"
   }
 }

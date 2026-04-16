@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-	"3  ",
-	"33 ",
+    "3  ",
+    "33 ",
     "333"
   ],
   "key": {
@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "this_is_stone:polished_dolomite_stairs",
-    "count": 4
+    "count": 4,
+    "id": "this_is_stone:polished_dolomite_stairs"
   }
 }

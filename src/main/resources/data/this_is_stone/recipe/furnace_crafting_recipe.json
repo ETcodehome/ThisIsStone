@@ -7,12 +7,10 @@
     "aaa"
   ],
   "key": {
-    "a": {
-      "tag": "stone_crafting_materials"
-    }
+    "a": "#c:stone_crafting_materials"
   },
   "result": {
-    "item": "minecraft:furnace",
+    "id": "minecraft:furnace",
     "count": 1
   }
 }

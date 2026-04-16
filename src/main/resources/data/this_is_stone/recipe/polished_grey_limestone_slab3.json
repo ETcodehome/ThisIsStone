@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": {
     "item": "this_is_stone:grey_limestone"
   },
-  "result": "this_is_stone:polished_grey_limestone_slab"
+  "result": {
+    "id": "this_is_stone:polished_grey_limestone_slab",
+    "count": 2
+  }
 }

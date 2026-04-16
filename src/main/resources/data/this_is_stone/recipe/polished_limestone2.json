@@ -19,7 +19,7 @@
     }
   },
   "result": {
-    "item": "this_is_stone:polished_limestone",
-    "count": 4
+    "count": 4,
+    "id": "this_is_stone:polished_limestone"
   }
 }

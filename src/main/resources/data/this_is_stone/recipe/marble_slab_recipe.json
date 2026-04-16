@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "this_is_stone:marble_slab",
-    "count": 6
+    "count": 6,
+    "id": "this_is_stone:marble_slab"
   }
 }

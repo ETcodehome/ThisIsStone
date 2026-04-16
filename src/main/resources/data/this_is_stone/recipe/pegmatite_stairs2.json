@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "this_is_stone:pegmatite"
   },
-  "result": "this_is_stone:pegmatite_stairs"
+  "result": {
+    "id": "this_is_stone:pegmatite_stairs",
+    "count": 1
+  }
 }

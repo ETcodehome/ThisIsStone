@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": {
     "item": "this_is_stone:polished_soapstone"
   },
-  "result": "this_is_stone:polished_soapstone_slab"
+  "result": {
+    "id": "this_is_stone:polished_soapstone_slab",
+    "count": 2
+  }
 }

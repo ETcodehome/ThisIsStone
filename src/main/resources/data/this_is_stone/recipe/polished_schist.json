@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "this_is_stone:schist"
   },
-  "result": "this_is_stone:polished_schist"
+  "result": {
+    "id": "this_is_stone:polished_schist",
+    "count": 1
+  }
 }

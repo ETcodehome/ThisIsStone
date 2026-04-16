@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": {
     "item": "this_is_stone:peridotite"
   },
-  "result": "this_is_stone:polished_peridotite_slab"
+  "result": {
+    "id": "this_is_stone:polished_peridotite_slab",
+    "count": 2
+  }
 }

@@ -12,7 +12,7 @@
     }
   },
   "result": {
-    "item": "this_is_stone:marble_stairs",
-    "count": 6
+    "count": 6,
+    "id": "this_is_stone:marble_stairs"
   }
 }

@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "this_is_stone:polished_marble",
-    "count": 4
+    "count": 4,
+    "id": "this_is_stone:polished_marble"
   }
 }

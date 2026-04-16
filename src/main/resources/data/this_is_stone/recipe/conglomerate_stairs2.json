@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "this_is_stone:conglomerate"
   },
-  "result": "this_is_stone:conglomerate_stairs"
+  "result": {
+    "id": "this_is_stone:conglomerate_stairs",
+    "count": 1
+  }
 }
