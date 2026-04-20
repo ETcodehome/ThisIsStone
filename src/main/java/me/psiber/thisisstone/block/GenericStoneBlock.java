@@ -2,6 +2,7 @@ package me.psiber.thisisstone.block;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -11,6 +12,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class GenericStoneBlock extends Block {
+
+    public static final Block tagSourceBlock = Blocks.STONE;
 
     public GenericStoneBlock(float destroyTime, float explosionResistance, SoundType sounds) {
         super(createProperties(destroyTime, explosionResistance, sounds));

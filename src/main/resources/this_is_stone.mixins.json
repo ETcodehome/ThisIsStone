@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.psiber.thisisstone.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockStateTagMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

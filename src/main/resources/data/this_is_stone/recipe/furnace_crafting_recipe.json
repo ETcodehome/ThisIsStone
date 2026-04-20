@@ -7,7 +7,9 @@
     "aaa"
   ],
   "key": {
-    "a": "#c:stone_crafting_materials"
+    "a": {
+      "tag": "c:stone_crafting_materials"
+    }
   },
   "result": {
     "id": "minecraft:furnace",

@@ -2,6 +2,7 @@ package me.psiber.thisisstone.init;
 
 import me.psiber.thisisstone.block.*;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
