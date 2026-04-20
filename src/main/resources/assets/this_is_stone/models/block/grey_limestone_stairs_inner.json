@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/grey_limestone",
+    "top": "this_is_stone:block/grey_limestone",
+    "side": "this_is_stone:block/grey_limestone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/limestone_1_1",
+    "top": "this_is_stone:block/limestone_1_1",
+    "side": "this_is_stone:block/limestone_1_1"
+  },
+  "render_type": "solid"
+}

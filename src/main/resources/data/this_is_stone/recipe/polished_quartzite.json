@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "this_is_stone:quartzite"
+  },
+  "result": {
+    "id": "this_is_stone:polished_quartzite",
+    "count": 1
+  }
+}

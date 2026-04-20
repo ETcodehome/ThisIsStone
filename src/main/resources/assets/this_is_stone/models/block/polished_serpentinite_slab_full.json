@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "this_is_stone:block/polished_serpentinite",
+    "top": "this_is_stone:block/polished_serpentinite",
+    "side": "this_is_stone:block/polished_serpentinite"
+  },
+  "render_type": "solid"
+}

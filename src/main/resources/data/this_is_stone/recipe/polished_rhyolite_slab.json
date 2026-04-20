@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "234"
+  ],
+  "key": {
+    "2": {
+      "item": "this_is_stone:polished_rhyolite"
+    },
+    "3": {
+      "item": "this_is_stone:polished_rhyolite"
+    },
+    "4": {
+      "item": "this_is_stone:polished_rhyolite"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "this_is_stone:polished_rhyolite_slab"
+  }
+}

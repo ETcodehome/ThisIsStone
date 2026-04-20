@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:serpentinite"
+    },
+    "1": {
+      "item": "this_is_stone:serpentinite"
+    },
+    "2": {
+      "item": "this_is_stone:serpentinite"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "this_is_stone:serpentinite_slab"
+  }
+}

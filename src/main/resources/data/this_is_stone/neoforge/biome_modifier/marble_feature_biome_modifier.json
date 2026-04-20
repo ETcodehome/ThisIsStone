@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#is_overworld",
+  "features": "this_is_stone:marble_feature",
+  "step": "underground_ores"
+}

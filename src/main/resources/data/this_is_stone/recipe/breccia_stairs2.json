@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "this_is_stone:breccia"
+  },
+  "result": {
+    "id": "this_is_stone:breccia_stairs",
+    "count": 1
+  }
+}

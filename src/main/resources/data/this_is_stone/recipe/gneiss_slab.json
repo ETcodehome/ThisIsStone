@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:gneiss"
+    },
+    "1": {
+      "item": "this_is_stone:gneiss"
+    },
+    "2": {
+      "item": "this_is_stone:gneiss"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "this_is_stone:gneiss_slab"
+  }
+}

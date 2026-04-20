@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/quartzite_1_1",
+    "up": "this_is_stone:block/quartzite_1_1",
+    "north": "this_is_stone:block/quartzite_1_1",
+    "east": "this_is_stone:block/quartzite_1_1",
+    "south": "this_is_stone:block/quartzite_1_1",
+    "west": "this_is_stone:block/quartzite_1_1",
+    "particle": "this_is_stone:block/quartzite_1_1"
+  },
+  "render_type": "solid"
+}

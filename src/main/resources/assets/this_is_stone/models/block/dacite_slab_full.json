@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "this_is_stone:block/dacite",
+    "top": "this_is_stone:block/dacite",
+    "side": "this_is_stone:block/dacite"
+  },
+  "render_type": "solid"
+}

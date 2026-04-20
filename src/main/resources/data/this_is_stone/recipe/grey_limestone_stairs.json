@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "3": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "4": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "6": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "7": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "8": {
+      "item": "this_is_stone:grey_limestone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "this_is_stone:grey_limestone_stairs"
+  }
+}

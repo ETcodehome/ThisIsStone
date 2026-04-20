@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:conglomerate"
+    },
+    "1": {
+      "item": "this_is_stone:conglomerate"
+    },
+    "2": {
+      "item": "this_is_stone:conglomerate"
+    }
+  },
+  "result": {
+    "count": 6,
+    "id": "this_is_stone:conglomerate_slab"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "this_is_stone:gabbro"
+  },
+  "result": {
+    "id": "this_is_stone:gabbro_slab",
+    "count": 2
+  }
+}

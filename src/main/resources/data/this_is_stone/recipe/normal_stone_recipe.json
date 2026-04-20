@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00",
+    "00"
+  ],
+  "key": {
+    "0": {
+      "tag": "stone_tool_materials"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:cobblestone"
+  }
+}

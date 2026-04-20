@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "this_is_stone:block/polished_mudstone",
+    "top": "this_is_stone:block/polished_mudstone",
+    "side": "this_is_stone:block/polished_mudstone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "1": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "2": {
+      "item": "this_is_stone:grey_limestone"
+    },
+    "3": {
+      "item": "this_is_stone:grey_limestone"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "this_is_stone:polished_grey_limestone"
+  }
+}

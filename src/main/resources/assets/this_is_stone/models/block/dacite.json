@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/dacite",
+    "up": "this_is_stone:block/dacite",
+    "north": "this_is_stone:block/dacite",
+    "east": "this_is_stone:block/dacite",
+    "south": "this_is_stone:block/dacite",
+    "west": "this_is_stone:block/dacite",
+    "particle": "this_is_stone:block/dacite"
+  },
+  "render_type": "solid"
+}

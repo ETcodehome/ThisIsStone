@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:black_marble"
+    },
+    "3": {
+      "item": "this_is_stone:black_marble"
+    },
+    "4": {
+      "item": "this_is_stone:black_marble"
+    },
+    "6": {
+      "item": "this_is_stone:black_marble"
+    },
+    "7": {
+      "item": "this_is_stone:black_marble"
+    },
+    "8": {
+      "item": "this_is_stone:black_marble"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "this_is_stone:black_marble_stairs"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "type": "this_is_stone:scoria_feature",
+  "config": {
+    "size": 64,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:light_gray_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:white_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:pink_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:orange_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:yellow_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:gray_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:brown_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:red_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:black_terracotta"
+          }
+        },
+        "state": {
+          "Name": "this_is_stone:scoria"
+        }
+      }
+    ]
+  }
+}

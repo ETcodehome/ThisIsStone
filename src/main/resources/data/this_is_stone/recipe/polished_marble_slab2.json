@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "this_is_stone:marble"
+  },
+  "result": {
+    "id": "this_is_stone:polished_marble_slab",
+    "count": 2
+  }
+}

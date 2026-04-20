@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/polished_mudstone",
+    "up": "this_is_stone:block/polished_mudstone",
+    "north": "this_is_stone:block/polished_mudstone",
+    "east": "this_is_stone:block/polished_mudstone",
+    "south": "this_is_stone:block/polished_mudstone",
+    "west": "this_is_stone:block/polished_mudstone",
+    "particle": "this_is_stone:block/polished_mudstone"
+  },
+  "render_type": "solid"
+}

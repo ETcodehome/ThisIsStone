@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "this_is_stone:gneiss"
+    },
+    "3": {
+      "item": "this_is_stone:gneiss"
+    },
+    "4": {
+      "item": "this_is_stone:gneiss"
+    },
+    "6": {
+      "item": "this_is_stone:gneiss"
+    },
+    "7": {
+      "item": "this_is_stone:gneiss"
+    },
+    "8": {
+      "item": "this_is_stone:gneiss"
+    }
+  },
+  "result": {
+    "count": 4,
+    "id": "this_is_stone:gneiss_stairs"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "this_is_stone:serpentinite"
+  },
+  "result": {
+    "id": "this_is_stone:polished_serpentinite_stairs",
+    "count": 1
+  }
+}

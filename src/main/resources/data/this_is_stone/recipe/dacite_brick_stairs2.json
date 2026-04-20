@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "this_is_stone:dacite_bricks"
+  },
+  "result": {
+    "id": "this_is_stone:dacite_brick_stairs",
+    "count": 1
+  }
+}

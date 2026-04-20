@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "this_is_stone:block/anthracite",
+    "up": "this_is_stone:block/anthracite",
+    "north": "this_is_stone:block/anthracite",
+    "east": "this_is_stone:block/anthracite",
+    "south": "this_is_stone:block/anthracite",
+    "west": "this_is_stone:block/anthracite",
+    "particle": "this_is_stone:block/anthracite"
+  },
+  "render_type": "solid"
+}

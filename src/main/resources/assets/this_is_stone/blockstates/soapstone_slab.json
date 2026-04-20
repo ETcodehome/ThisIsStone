@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "this_is_stone:block/soapstone_slab"
+    },
+    "type=top": {
+      "model": "this_is_stone:block/soapstone_slab_top"
+    },
+    "type=double": {
+      "model": "this_is_stone:block/soapstone_slab_full"
+    }
+  }
+}
